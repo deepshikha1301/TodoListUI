@@ -1,0 +1,6 @@
+<div class="task" *ngFor="let task of tasks">
+    <mat-checkbox (change)="onChange($event.checked)"><span>{{task}}</span></mat-checkbox>
+</div>
+<div>
+    <button [disabled]="setForm">Show</button>
+</div>

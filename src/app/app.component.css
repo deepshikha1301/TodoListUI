@@ -1,0 +1,13 @@
+.tasklist{
+    align-items: center;
+    border: 2px solid green;
+    padding: 50px 0;
+    height: 50%;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.btn{
+    text-align: right;
+    border: 2px solid red;
+}
